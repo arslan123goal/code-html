@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">   <!--This tag will use an attribute(lang) which defines language used in html tag-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>content size using h1 tag </h1>    <!--h1 etc tags are used for content size -->
+    <h2>content size using h2 tag </h2>
+    <h3>content size using h3 tag </h3>
+    <h4>content size using h4 tag </h4>
+    <h5>content size using h5 tag </h5>
+    <h6>content size using h6 tag </h6>
+</body>
+</html>
