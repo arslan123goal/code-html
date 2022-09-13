@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headings Paragraphs and Emmet</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <p>This is paragraph</p>
+    <!-- <p>lorem40 for 40 words dummy text</p> -->
+    <p>Lorem ipsum dolor sit amet,<strong>this is bold using strong tag</strong> consectetur adipisicing elit. Debitis,<em>This is emphasized using em tag</em> perspiciatis neque.<b>bold tag</b> Natus atque nostrum necessitatibus quas,<i>italic tag</i> eaque ea nemo cupiditate deserunt ad accusamus repellat aperiam ex corrupti exercitationem esse quam dicta ut suscipit nihil rerum veniam! Quos magnam ad aspernatur.</p>
+    <p>first<br>
+        br is a self closing tag and it adds a new line
+    </p>
+    <p>hr tag adds a horizontal line</p>
+    <hr>
+    <p>second</p>
+    <p>third</p>
+    <p>forth</p>
+    <p>ctrl + enter to jump into the new line</p>
+</body>
+</html>
