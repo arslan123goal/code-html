@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ids & classes</title>
+</head>
+<body>
+    <h3>Ids and classes in html</h3>
+    <div id="mainBox" class="redBg blackBorder"></div>
+    this is mainbox
+    <span class="redBg"></span>
+
+    <!-- span.redBg -->
+    <span class="redBg"></span>
+
+    <!-- span#mainSpan -->
+    <span id="mainSpan"></span>
+
+    <!-- div.redBg.blackBorder.anotherClass -->
+    <div class="redBg blackBorder anotherClass"></div>
+
+    <!-- Emmet taked div tag as default -->
+    <!-- .blackBorder -->
+    <div class="blackBorder"></div>
+
+    <!-- create multiple elements using Emmet -->
+    <!-- span.myClass.myClass2.myClass3*4 -->
+    <span class="myClass myClass2 myClass3">first</span>
+    <span class="myClass myClass2 myClass3">second</span>
+    <span class="myClass myClass2 myClass3">third</span>
+    <span class="myClass myClass2 myClass3">forth</span>
+</body>
+</html>
