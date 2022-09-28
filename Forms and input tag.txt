@@ -1,16 +1,62 @@
-
-class Person:
-    # variable = 5     # public data member
-    # _variable = 5    # protected data member
-    __variable = 5     # private data member
-    def __init__(self,first_name,last_name):
-        self.first_name = first_name
-        self.last_name = last_name
-
-    def print(self):
-        print(f"My first name is {self.first_name} and last name is {self.last_name}")
-
-Arslan = Person("Muhammad","Arslan")  # object of 1st base class
-# print(Arslan.variable)
-# print(Arslan._variable)
-print(Arslan._Person__variable)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h3>This is HTML forms</h3>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            Address: <input type="text" name="myAddress">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myNumber">
+        </div>
+        <br>
+        <div>
+            <!-- checked //to keep checkbox checked -->
+            <label for="Eli">Eligible</label>
+             <input type="checkbox" name="myEligiblity" id="Eli">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other: <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            Write about yourself: <br><textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="pk">Mehran</option>
+                <option value="pk" selected>Corolla</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit form">
+            <input type="reset" value="Reset form">
+        </div>
+    </form>
+</body>
+</html>
