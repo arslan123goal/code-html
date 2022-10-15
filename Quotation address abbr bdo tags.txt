@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quotations</title>
+</head>
+<body>
+    <!-- lorem -->
+    <p>Here is a quote from WWF's <q>website:</q></p>  <!--insert quotation marks-->
+    <p><abbr title="World Health Organization">WHO</abbr> was founded in 1948</p> <!--defines an abbreviation-->
+    <address>chak no 713 gb kamalia</address> <!--italic-->
+    <p><cite>lorem</cite> Lorem ipsum dolor sit amet.</p> <!--italic-->
+    <bdo dir="rtl">don't give up</bdo> <!--override the current text direction:-->
+</body>
+</html>
